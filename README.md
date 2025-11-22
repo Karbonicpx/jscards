@@ -1,0 +1,1 @@
+Website that is a digital version of flashcards, but JavaScript themed, developed with HTML, CSS and JavaScript
