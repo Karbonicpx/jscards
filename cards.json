@@ -1,0 +1,104 @@
+{
+    "cards": [
+        {
+            "question": "What is JavaScript?",
+            "answer": "JavaScript is a programming language used to make web pages interactive and run code in the browser or on the server (Node.js).",
+            "completed": false
+        },
+        {
+            "question": "How do you declare a variable?",
+            "answer": "Use var, let, or const. let and const are block-scoped; const is for values that shouldn't be reassigned.",
+            "completed": false
+        },
+        {
+            "question": "How do you write a function?",
+            "answer": "Use function myFunc() { ... } or an arrow: const myFunc = () => { ... } to group reusable code.",
+            "completed": false
+        },
+        {
+            "question": "How do you call a function?",
+            "answer": "Write the function name followed by parentheses: myFunc() or myFunc(arg1, arg2).",
+            "completed": false
+        },
+        {
+            "question": "What is an array?",
+            "answer": "An array is an ordered list of values accessed by numeric indices, e.g., [1, 2, 3].",
+            "completed": false
+        },
+        {
+            "question": "How do you add an item to an array?",
+            "answer": "Use push to add to the end: arr.push(item). Use unshift to add to the start.",
+            "completed": false
+        },
+        {
+            "question": "What is an object?",
+            "answer": "An object stores keyed values as properties: const obj = { key: value } and you access with obj.key or obj['key'].",
+            "completed": false
+        },
+        {
+            "question": "How do you read or write a property on an object?",
+            "answer": "Read: obj.prop or obj['prop']. Write: obj.prop = value or obj['prop'] = value.",
+            "completed": false
+        },
+        {
+            "question": "What is a string?",
+            "answer": "A string is text wrapped in quotes, e.g., 'hello' or \"hello\".",
+            "completed": false
+        },
+        {
+            "question": "What is a number?",
+            "answer": "A number represents numeric values like 42 or 3.14; JavaScript uses one Number type for integers and floats.",
+            "completed": false
+        },
+        {
+            "question": "What is a boolean?",
+            "answer": "A boolean is true or false and is used for conditions and logic.",
+            "completed": false
+        },
+        {
+            "question": "How do you compare values?",
+            "answer": "Use === for strict equality and !== for strict inequality; use <, >, <=, >= for numeric comparisons.",
+            "completed": false
+        },
+        {
+            "question": "How do you write a conditional?",
+            "answer": "Use if (condition) { ... } else { ... } to run code based on a condition.",
+            "completed": false
+        },
+        {
+            "question": "How do you loop over numbers?",
+            "answer": "Use for (let i = 0; i < n; i++) { ... } to repeat code a set number of times.",
+            "completed": false
+        },
+        {
+            "question": "How do you loop over array items?",
+            "answer": "Use for (const item of arr) { ... } or arr.forEach(item => { ... }) to access each element.",
+            "completed": false
+        },
+        {
+            "question": "How do you print to the console?",
+            "answer": "Use console.log(value) to output values for debugging.",
+            "completed": false
+        },
+        {
+            "question": "How do you add a comment?",
+            "answer": "Use // for single-line or /* ... */ for multi-line comments.",
+            "completed": false
+        },
+        {
+            "question": "What is the DOM?",
+            "answer": "The DOM is the document object model: a tree of HTML elements that JavaScript can read and change.",
+            "completed": false
+        },
+        {
+            "question": "How do you select an element from the page?",
+            "answer": "Use document.getElementById('id') or document.querySelector('.class') to get elements from the DOM.",
+            "completed": false
+        },
+        {
+            "question": "How do you change an element's text?",
+            "answer": "Set element.textContent = 'new text' or element.innerText = 'new text' to update visible content.",
+            "completed": false
+        }
+    ]
+}

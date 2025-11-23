@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>JS Flash Cards</title>
+    <title>Practice</title>
     <meta name="description" content="Website that is a digital version of flashcards, but JavaScript themed">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
@@ -13,21 +13,24 @@
 
 <body>
 
-    
+
     <header>
-        <a href="#">
+        <a href="../menu/index.html">
             <img src="/Icon.png" alt="JSCards Logo">
         </a>
         <h1> Flash Cards</h1>
 
     </header>
-    <div id="menu">
-        <h1 id = "menu-header"> Select your Option </h1>
-        <div id="menu-btns">
-            <button type="button" title="Practice" id = "practice-button"> Practice Flashcards </button>
-            <button type="button" title="Add"> Add Flashcard </button>
-            <button type="button" title="Remove"> Remove Flashcard </button>
+       
+    <div id="flashcard">
+        <div id = "progress-bar" data-label = "5 of 20" style = "--width: 2"></div>
+        <h1 id="question">What is the difference between let, var and const?</h1>
+        <div id="question-navigation">
+            <button id="prev-btn" >← Previous</button>
+            <button id="show-answer-btn" >Show Answer</button>
+            <button id="next-btn" >Next →</button>
         </div>
+    </div>
 
     </div>
     <script src="script.js" async defer></script>
