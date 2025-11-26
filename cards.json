@@ -1,104 +1,144 @@
 {
     "cards": [
         {
+            "id": 1,
             "question": "What is JavaScript?",
             "answer": "JavaScript is a programming language used to make web pages interactive and run code in the browser or on the server (Node.js).",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 2,
             "question": "How do you declare a variable?",
             "answer": "Use var, let, or const. let and const are block-scoped; const is for values that shouldn't be reassigned.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 3,
             "question": "How do you write a function?",
             "answer": "Use function myFunc() { ... } or an arrow: const myFunc = () => { ... } to group reusable code.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 4,
             "question": "How do you call a function?",
             "answer": "Write the function name followed by parentheses: myFunc() or myFunc(arg1, arg2).",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 5,
             "question": "What is an array?",
             "answer": "An array is an ordered list of values accessed by numeric indices, e.g., [1, 2, 3].",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 6,
             "question": "How do you add an item to an array?",
             "answer": "Use push to add to the end: arr.push(item). Use unshift to add to the start.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 7,
             "question": "What is an object?",
             "answer": "An object stores keyed values as properties: const obj = { key: value } and you access with obj.key or obj['key'].",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 8,
             "question": "How do you read or write a property on an object?",
             "answer": "Read: obj.prop or obj['prop']. Write: obj.prop = value or obj['prop'] = value.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 9,
             "question": "What is a string?",
             "answer": "A string is text wrapped in quotes, e.g., 'hello' or \"hello\".",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 10,
             "question": "What is a number?",
             "answer": "A number represents numeric values like 42 or 3.14; JavaScript uses one Number type for integers and floats.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 11,
             "question": "What is a boolean?",
             "answer": "A boolean is true or false and is used for conditions and logic.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 12,
             "question": "How do you compare values?",
             "answer": "Use === for strict equality and !== for strict inequality; use <, >, <=, >= for numeric comparisons.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 13,
             "question": "How do you write a conditional?",
             "answer": "Use if (condition) { ... } else { ... } to run code based on a condition.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 14,
             "question": "How do you loop over numbers?",
             "answer": "Use for (let i = 0; i < n; i++) { ... } to repeat code a set number of times.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 15,
             "question": "How do you loop over array items?",
             "answer": "Use for (const item of arr) { ... } or arr.forEach(item => { ... }) to access each element.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 16,
             "question": "How do you print to the console?",
             "answer": "Use console.log(value) to output values for debugging.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 17,
             "question": "How do you add a comment?",
             "answer": "Use // for single-line or /* ... */ for multi-line comments.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 18,
             "question": "What is the DOM?",
             "answer": "The DOM is the document object model: a tree of HTML elements that JavaScript can read and change.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 19,
             "question": "How do you select an element from the page?",
             "answer": "Use document.getElementById('id') or document.querySelector('.class') to get elements from the DOM.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         },
         {
+            "id": 20,
             "question": "How do you change an element's text?",
             "answer": "Set element.textContent = 'new text' or element.innerText = 'new text' to update visible content.",
-            "completed": false
+            "completed": false,
+            "hidden": false
         }
     ]
 }
